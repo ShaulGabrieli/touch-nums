@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Righteous&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body onload="onInit()">
+    <h1><span onclick="changeHeaderColor(this)" letter="0">T</span>OUCH <span letter="0" onclick="changeHeaderColor(this)" >N</span>UMBERS</h1>
+    <div class="timer">0</div>
+    <button class="difficult-buttons" onclick="playAgain(DIFFICULT_EASY)">Easy</button>
+    <button class="difficult-buttons" onclick="playAgain(DIFFICULT_MEDIUM)">Medium</button>
+    <button class="difficult-buttons" onclick="playAgain(DIFFICULT_HARD)">Hard</button>
+    <div >
+        <table class="board">
+            
+         </table>
+    </div>
+<button class="play-again" onclick="playAgain(gCurrDifficulty)">Play Again</button>
+<a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=13692">Pixabay</a>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

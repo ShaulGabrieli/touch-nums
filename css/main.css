@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+table {
+    margin: 80px auto 20px;
+}
+h1 {
+    font-family: 'Righteous', cursive;
+    color: rgb(209, 209, 209);
+    font-size: 100px;
+    cursor: default;
+    margin-bottom: 20px;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: solid;
+    color: rgb(209, 209, 209);
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+}
+
+button {
+    border: solid;
+    color: rgb(209, 209, 209);
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(209, 209, 209);
+}
+
+td:hover {
+    background-color: rgb(209, 209, 209);
+    color: black;
+}
+
+.cell-click {
+    background-color: white;
+}
+
+span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+.play-again {
+    display: none;
+    width: 150px;
+    height: 50px;
+
+}
+
+.difficult-buttons {
+    width: 100px;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+   
+}
+
+.timer{
+    color: rgb(209, 209, 209);
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+    margin-bottom: 30px;
+}
